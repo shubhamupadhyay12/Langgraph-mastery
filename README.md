@@ -1,27 +1,14 @@
 # 🚀 LangGraph Learning Journey
 
-> Documenting my journey of learning **LangGraph** by following the **CampusX LangGraph Playlist** and building hands-on AI agent applications.
+> Documenting my journey of learning **LangGraph** by implementing concepts from the **CampusX LangGraph Playlist** and building practical AI workflows from scratch.
 
 ---
 
 ## 📖 About
 
-This repository contains my notes, code, experiments, and projects as I learn **LangGraph**, a framework for building stateful, multi-agent applications with LLMs.
+This repository contains my notes, code, experiments, and hands-on implementations while learning **LangGraph**.
 
-The primary learning resource for this journey is the **CampusX LangGraph Playlist**. Along the way, I'll also explore the official documentation and build my own implementations.
-
----
-
-## 🎯 Goals
-
-- Learn LangGraph fundamentals
-- Understand graph-based agent workflows
-- Build AI agents with memory
-- Explore state management
-- Implement conditional routing
-- Create multi-agent systems
-- Build RAG-powered applications
-- Develop production-ready LangGraph projects
+Instead of just following tutorials, every concept is implemented as a separate Jupyter notebook—from basic workflows to advanced topics like memory, persistence, RAG, subgraphs, tools, and human-in-the-loop systems.
 
 ---
 
@@ -30,87 +17,122 @@ The primary learning resource for this journey is the **CampusX LangGraph Playli
 - Python
 - LangGraph
 - LangChain
-- OpenAI / Gemini / Groq APIs
+- OpenAI
+- Huggging face
+- Open Router
+- Google Gemini
 - Jupyter Notebook
 - VS Code
 
 ---
 
-## 📂 Repository Structure
+## 📂 Repository Contents
 
-```text
-langgraph-learning-journey/
-│
-├── 01-introduction/
-├── 02-state-and-graph/
-├── 03-nodes-and-edges/
-├── 04-conditional-routing/
-├── 05-memory/
-├── 06-tools/
-├── 07-agents/
-├── 08-multi-agent/
-├── 09-rag/
-├── projects/
-├── notes/
-└── README.md
-```
+| Notebook | Description |
+|----------|-------------|
+| `1_bmi_workflow.ipynb` | Basic LangGraph Workflow |
+| `2_simple_llm_workflow.ipynb` | Simple LLM Workflow |
+| `3_prompt_chaining.ipynb` | Prompt Chaining |
+| `4_parallel_workflow.ipynb` | Parallel Workflows |
+| `5_UPSC_essay_workflow.ipynb` | Real-world Workflow Example |
+| `6_qudratic_equation_conditional_workflow.ipynb` | Conditional Routing |
+| `7_Review_reply_Workflow.ipynb` | Conditional Workflow |
+| `8_x_post_generator.ipynb` | Iterative Workflow |
+| `9_Basic_Chatbot.ipynb` | Basic Chatbot |
+| `10_Persistence.ipynb` | Graph Persistence |
+| `11_tools.ipynb` | Tool Calling |
+| `12_MCP_client_async.py` | Async MCP Client |
+| `13_rag.ipynb` | Retrieval-Augmented Generation (RAG) |
+| `14_hitl.ipynb` | Human-in-the-Loop |
+| `15_subgraph.ipynb` | LangGraph Subgraphs |
+| `15_subgraph_shared.ipynb` | Shared Subgraphs |
+| `16_stm.ipynb` | Short-Term Memory |
+| `17_stm_persistence.ipynb` | Memory Persistence |
+| `18_stm_trimming.ipynb` | Memory Trimming |
+| `19_stm_deletion.ipynb` | Memory Deletion |
+| `20_stm_summarization.ipynb` | Memory Summarization |
+
+---
+
+## 📚 Topics Covered
+
+- ✅ LangGraph Basics
+- ✅ StateGraph
+- ✅ Prompt Chaining
+- ✅ Parallel Execution
+- ✅ Conditional Routing
+- ✅ Iterative Workflows
+- ✅ Basic Chatbot
+- ✅ Graph Persistence
+- ✅ Tool Calling
+- ✅ MCP Client
+- ✅ Retrieval-Augmented Generation (RAG)
+- ✅ Human-in-the-Loop (HITL)
+- ✅ Subgraphs
+- ✅ Shared State
+- ✅ Short-Term Memory
+- ✅ Memory Persistence
+- ✅ Memory Trimming
+- ✅ Memory Deletion
+- ✅ Memory Summarization
+
+---
+
+## 🎯 Learning Roadmap
+
+- [x] Basic Workflows
+- [x] Prompt Chaining
+- [x] Parallel Workflows
+- [x] Conditional Routing
+- [x] Chatbots
+- [x] Persistence
+- [x] Tool Calling
+- [x] MCP Client
+- [x] RAG
+- [x] Human-in-the-Loop
+- [x] Subgraphs
+- [x] Memory Management
+- [ ] Long-Term Memory
+
+---
+
+## 💡 What You'll Find
+
+- 📓 Step-by-step LangGraph notebooks
+- 🤖 AI workflow implementations
+- 🧠 Memory management examples
+- 🔧 Tool integration examples
+- 📄 RAG applications
+- 🔄 Graph-based workflows
+- 🚀 Practical LangGraph projects
 
 ---
 
 ## 📚 Learning Resources
-
-- 🎥 CampusX LangGraph Playlist
-- 📖 LangGraph Official Documentation
+- 📖 LangGraph Documentation
 - 📖 LangChain Documentation
-
----
-
-## 📌 Progress
-
-- [ ] Introduction
-- [ ] Installation & Setup
-- [ ] StateGraph Basics
-- [ ] Nodes & Edges
-- [ ] Conditional Edges
-- [ ] Memory
-- [ ] Tool Calling
-- [ ] Agents
-- [ ] Multi-Agent Systems
-- [ ] RAG with LangGraph
-- [ ] End-to-End Projects
-
----
-
-## 💡 What You'll Find Here
-
-- 📓 Lecture notes
-- 💻 Code examples
-- 🧪 Experiments
-- 🚀 Mini projects
-- 🤖 AI agent implementations
-- 📝 Personal learnings and insights
 
 ---
 
 ## 🤝 Contributions
 
-This repository is primarily for my personal learning journey. Suggestions, improvements, and discussions are always welcome!
+This repository documents my personal learning journey. Suggestions, discussions, and improvements are always welcome.
 
----
-
-## ⭐ Acknowledgements
-
-Special thanks to **CampusX** for creating an excellent LangGraph playlist and to the LangGraph and LangChain communities for their amazing open-source work and documentation.
+If you find this repository helpful, consider giving it a ⭐.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
 ---
 
-### 🌟 Connect
+## ⭐ Connect
+
+If you're also learning LangGraph, feel free to fork this repository, explore the notebooks, and share your ideas.
+
+**Happy Learning! 🚀**
 
 If you're also learning LangGraph, feel free to ⭐ this repository, fork it, or share your ideas!
 
